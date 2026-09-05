@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rishabh Prashant — Data Engineering &amp; Applied ML</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">☰</button>
+
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-top">
+    <h1 class="name">Rishabh<br>Prashant</h1>
+    <p class="tagline">Data engineering student building with Python, computer vision and market data.</p>
+  </div>
+
+  <nav class="side-nav">
+    <a href="#work">work</a>
+    <a href="#skills">skills</a>
+    <a href="#trading">trading</a>
+    <a href="#contact">contact</a>
+  </nav>
+
+  <div class="sidebar-bottom">
+    <p class="loc">Patna, Bihar — BCA, Data Engineering, 2027</p>
+    <div class="social-row">
+      <a href="mailto:youremail@example.com">email</a>
+      <a href="https://github.com/yourusername" target="_blank" rel="noopener">github</a>
+      <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener">linkedin</a>
+    </div>
+  </div>
+</aside>
+
+<main class="content">
+
+  <section class="hero" id="top">
+    <p class="hero-eyebrow">available for freelance &amp; project work</p>
+    <h2 class="hero-line">I build systems that see, sort<br>and decide — then I ship them.</h2>
+    <p class="hero-sub">Computer vision, automation and dashboards for people who need working software, not slideware. Currently deep in a personal NIFTY options framework on the side.</p>
+  </section>
+
+  <section class="section" id="work">
+    <h3 class="section-heading">selected work</h3>
+
+    <article class="project">
+      <div class="project-head">
+        <h4>Real-time Face Recognition &amp; Pose Detection</h4>
+        <div class="tag-row">
+          <span class="tag">Python</span><span class="tag">OpenCV</span><span class="tag">MediaPipe</span><span class="tag">YOLOv8</span>
+        </div>
+      </div>
+      <div class="project-body">
+        <div class="pblock"><span class="plabel">problem</span><p>Manual identity checks and posture monitoring don't scale and are easy to fool.</p></div>
+        <div class="pblock"><span class="plabel">approach</span><p>Combined face_recognition and dlib for identity matching with a YOLOv8 + MediaPipe pipeline for live pose and gesture tracking, plus a basic anti-spoofing layer.</p></div>
+        <div class="pblock"><span class="plabel">result</span><p class="editable">[Add: accuracy %, frames/sec, or where it's deployed]</p></div>
+      </div>
+    </article>
+
+    <article class="project">
+      <div class="project-head">
+        <h4>Receptionist Robot</h4>
+        <div class="tag-row">
+          <span class="tag">Python</span><span class="tag">Arduino</span><span class="tag">IoT</span>
+        </div>
+      </div>
+      <div class="project-body">
+        <div class="pblock"><span class="plabel">problem</span><p>Front-desk greeting and basic visitor queries needed a low-cost automated first point of contact.</p></div>
+        <div class="pblock"><span class="plabel">approach</span><p>Built a hardware + software pipeline linking Arduino sensors and motors to a Python control layer for speech/interaction logic.</p></div>
+        <div class="pblock"><span class="plabel">result</span><p class="editable">[Add: what it could do, demo video link]</p></div>
+      </div>
+    </article>
+
+    <article class="project">
+      <div class="project-head">
+        <h4>Investment &amp; Portfolio Dashboard</h4>
+        <div class="tag-row">
+          <span class="tag">Power BI</span><span class="tag">SQL</span><span class="tag">Python</span>
+        </div>
+      </div>
+      <div class="project-body">
+        <div class="pblock"><span class="plabel">problem</span><p>Tracking trade performance and portfolio exposure across positions was scattered across sheets.</p></div>
+        <div class="pblock"><span class="plabel">approach</span><p>Structured raw trade data into a queryable format and built a Power BI dashboard for P&amp;L, exposure and risk views.</p></div>
+        <div class="pblock"><span class="plabel">result</span><p class="editable">[Add: what decisions it improved, screenshot link]</p></div>
+      </div>
+    </article>
+
+    <article class="project">
+      <div class="project-head">
+        <h4>Property Verification WhatsApp Bot</h4>
+        <div class="tag-row">
+          <span class="tag">Python</span><span class="tag">Firebase</span><span class="tag">NLP</span>
+        </div>
+      </div>
+      <div class="project-body">
+        <div class="pblock"><span class="plabel">problem</span><p>Verifying property/tenant details manually over calls is slow and inconsistent.</p></div>
+        <div class="pblock"><span class="plabel">approach</span><p>Built a WhatsApp-based conversational bot backed by Firebase to collect, validate and store verification data.</p></div>
+        <div class="pblock"><span class="plabel">result</span><p class="editable">[Add: time saved, number of verifications handled]</p></div>
+      </div>
+    </article>
+
+  </section>
+
+  <section class="section" id="skills">
+    <h3 class="section-heading">tools &amp; stack</h3>
+    <div class="skills-grid">
+      <div class="skill-group">
+        <span class="skill-cat">languages</span>
+        <div class="tag-row"><span class="tag">Python</span><span class="tag">SQL</span><span class="tag">Pine Script</span></div>
+      </div>
+      <div class="skill-group">
+        <span class="skill-cat">ml / cv</span>
+        <div class="tag-row"><span class="tag">TensorFlow</span><span class="tag">Keras</span><span class="tag">scikit-learn</span><span class="tag">OpenCV</span><span class="tag">MediaPipe</span><span class="tag">YOLOv8</span><span class="tag">dlib</span></div>
+      </div>
+      <div class="skill-group">
+        <span class="skill-cat">data / infra</span>
+        <div class="tag-row"><span class="tag">Firebase</span><span class="tag">Power BI</span><span class="tag">Arduino / IoT</span></div>
+      </div>
+      <div class="skill-group">
+        <span class="skill-cat">other</span>
+        <div class="tag-row"><span class="tag">NLP</span><span class="tag">GUI development</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="trading">
+    <h3 class="section-heading">market framework — side project</h3>
+    <p class="trading-copy">A personal, still-in-progress discretionary framework for NIFTY options built around liquidity, market structure and EMA-based analysis. Implemented in Pine Script, journaled trade-by-trade, and being expanded into Python-based tooling for backtesting and analysis. This is a learning project, not an income stream, and it's documented as one.</p>
+  </section>
+
+  <section class="section contact" id="contact">
+    <h3 class="section-heading">get in touch</h3>
+    <p class="contact-copy">Open to freelance work in computer vision, automation, Power BI dashboards and Python tooling.</p>
+    <a class="cta" href="mailto:youremail@example.com">Email me</a>
+  </section>
+
+  <footer class="footer">
+    <p>Rishabh Prashant — Patna, India</p>
+  </footer>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
